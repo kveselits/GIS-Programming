@@ -13,7 +13,7 @@ print(Cities)
 
 #Cities = [Cities[0].upper(), Cities[1].upper(), Cities[2].upper()]
 
-
+#dynamically convert city to uppercase or lowercase based on current capitalization
 def toUpperOrLower(cities):
     i = 0
     if(cities[0][0].isupper() and cities[1][0].isupper() and cities[2][0].isupper()):
