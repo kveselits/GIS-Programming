@@ -11,7 +11,7 @@ print(ZIP5)
 Cities = ['Spokane', 'Cheney', 'Medical Lake']
 print(Cities)
 
-#Cities = [Cities[0].upper(), Cities[1].upper(), Cities[2].upper()]
+Cities = [Cities[0].upper(), Cities[1].upper(), Cities[2].upper()]
 
 #dynamically convert city to uppercase or lowercase based on current capitalization
 def toUpperOrLower(cities):
